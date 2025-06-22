@@ -1,74 +1,61 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-:root {
-  --preto: #000000;
-  --marinho: #493d9e;
-  --amarelo-claro: #fff2af;
-  --roxo-claro: #b2a5ff;
-  --verde: #99bc85;
-  --azul-claro: #e4efe7;
-  --branco: #ffffff;
-  --marron-claro: #faf1e6;
-}
-
 body {
-  height: 100vh;
-  box-sizing: border-box;
-  background-color: var(--azul-claro);
-  color: var(--preto);
-  font-size: 16px;
-  font-family: Arial, Helvetica, sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    text-align: center;
+    margin: 0;
 }
 
 header {
-  display: flex;
-  width: 100%;
-  background-color: var(--marinho);
-  padding: 1rem;
-  justify-content: center;
+    background-color: #0077b6;
+    color: white;
+    padding: 20px;
 }
 
-.portfolio h1 {
-  font-size: 4rem;
-  color: var(--amarelo-claro);
-}
-main {
-  margin: 40px auto;
-  padding: 20px;
+h1 {
+    margin: 0;
+    font-size: 3em;
 }
 
-.container {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  gap: 50px;
-  flex-wrap: wrap;
+.botoes {
+    margin-top: 50px;
 }
 
-.disciplina {
-  display: flex;
-  justify-content: center;
-  background-color: var(--branco);
-  border-radius: 10px;
-  padding: 30px;
-  width: 80%;
-  min-width: 280px;
-  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.2);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+button {
+    font-size: 2em;
+    padding: 20px 40px;
+    margin: 20px;
+    cursor: pointer;
+    background-color: #00b4d8;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: background-color 0.3s;
 }
 
-.disciplina:hover {
-  transform: translateY(-10px) scale(1.05);
-  box-shadow: 0 0 0 25px rgba(0, 0, 0, 0.2);
+button:hover {
+    background-color: #0096c7;
 }
 
-.disciplina a {
-  color: var(--verde);
-  font-size: 5rem;
-  text-decoration: none;
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    font-size: 2em;
+    margin: 20px 0;
+}
+
+.voltar {
+    display: inline-block;
+    margin-top: 40px;
+    padding: 10px 20px;
+    background-color: #0077b6;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.voltar:hover {
+    background-color: #023e8a;
 }
