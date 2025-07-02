@@ -1,12 +1,12 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #f2f2f2;
+    background-color: #f4e400;
     text-align: center;
     margin: 0;
 }
 
 header {
-    background-color: #0077b6;
+    background-color: #fe0000;
     color: white;
     padding: 20px;
 }
@@ -25,15 +25,15 @@ button {
     padding: 20px 40px;
     margin: 20px;
     cursor: pointer;
-    background-color: #00b4d8;
+    background-color: #fe0000;
     border: none;
     border-radius: 10px;
-    color: white;
+    color: rgb(255, 255, 255);
     transition: background-color 0.3s;
 }
 
 button:hover {
-    background-color: #0096c7;
+    background-color: #fe0000;
 }
 
 ul {
@@ -59,12 +59,12 @@ a:hover {
     display: inline-block;
     margin-top: 40px;
     padding: 10px 20px;
-    background-color: #0077b6;
+    background-color: #fe0000;
     color: white;
     text-decoration: none;
     border-radius: 8px;
 }
 
 .voltar:hover {
-    background-color: #023e8a;
+    background-color: #fe0000;
 }
